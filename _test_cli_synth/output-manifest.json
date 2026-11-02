@@ -1,9 +1,9 @@
 {
   "skill": "parking-lot-detection",
   "skill_version": "1.0.0",
-  "command": "parking-lot-detection --bbox 116 39 117 40 --synthetic --output-dir Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\parking-lot-detection\\_test_cli_synth --quiet",
-  "started_at": "2026-08-03T10:19:09.825405Z",
-  "finished_at": "2026-08-03T10:19:10.112048Z",
+  "command": "parking-lot-detection --bbox 116 39 117 40 --synthetic --output-dir /tmp/batch2/geoskill-parking-lot-detection/_test_cli_synth --quiet",
+  "started_at": "2026-11-02T15:33:25.431197Z",
+  "finished_at": "2026-11-02T15:33:25.954422Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -14,7 +14,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\parking-lot-detection\\_test_cli_synth\\parking_score.tif",
+      "path": "/tmp/batch2/geoskill-parking-lot-detection/_test_cli_synth/parking_score.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -31,7 +31,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\parking-lot-detection\\_test_cli_synth\\parking_stats.json",
+      "path": "/tmp/batch2/geoskill-parking-lot-detection/_test_cli_synth/parking_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -55,7 +55,7 @@
     "synthetic_parking_fraction": 0.5
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "parking-lot-detection"
   },
   "error": null
